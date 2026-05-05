@@ -1,0 +1,11 @@
+data/
+notebooks/
+src/
+*.py
+*.npy
+*.npz
+*.nc
+*.pt
+*.zip
+.venv/
+__pycache__/

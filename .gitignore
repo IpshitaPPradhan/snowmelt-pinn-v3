@@ -1,11 +1,23 @@
-data/
+# Allow app files
+!app.py
+*.py
+
+# Data — block most but allow pinn_results
+data/future_inputs/
+data/cmip6_raw/
+data/cmip6_bias_corrected/
+data/projections/
+data/era5_raw/
+data/*.npy
+data/*.npz
+data/*.nc
+data/*.pt
+data/*.zip
+data/*.parquet
+data/*.csv
+!data/pinn_results/all_results.npy
+
 notebooks/
 src/
-*.py
-*.npy
-*.npz
-*.nc
-*.pt
-*.zip
 .venv/
 __pycache__/
